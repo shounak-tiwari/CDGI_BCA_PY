@@ -1,0 +1,18 @@
+# Data Types : Type of Data which is store inside the variable.... 
+
+# numeric data : basic + adv operations of mathematics 
+	1. integer , int : it is use for store the numbers without decimals
+			e.g. contact number , id number , account number , vechile 
+	2. float , float : it is use for store the numbers with decimals 
+			e.g. amounts , ages 
+	3. complex : complex : is use for store the complex data elements 
+			e.g. complex is kind of element which is constist from real + img values... 
+			speed of helicopter 
+			speed of bike
+			real + img  (under root -1) = i
+	4. boolean : bool : it is use for store the results of conditions
+	5. none : it is use for represent the null values 
+
+# string : it is collection of characters...
+
+for check the type of data use function type
