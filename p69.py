@@ -7,16 +7,15 @@ from email.mime.text import MIMEText
 # ServerConfigurations 
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-
 SENDER_EMAIL  = "unifyofficialteam@gmail.com"
 SENDER_PASSWORD = "sumh rrvn hfby qtri"
-
-RECIVER_EMAIL = ["yogendrabariya095@gmail.com","sidhantsingh0110@gmail.com","ginaregoutam@gmail.com","goutamchouhan029@gmail.com"]
-
+# RECIVER_EMAIL = ["yogendrabariya095@gmail.com","sidhantsingh0110@gmail.com","ginaregoutam@gmail.com","goutamchouhan029@gmail.com"]
+RECIVER_EMAIL = "manmeetgole42@gmail.com"
 # create a msg 
 msg = MIMEMultipart()
 msg["From"] = SENDER_EMAIL
-msg["To"] = ", ".join(RECIVER_EMAIL)
+# msg["To"] = ", ".join(RECIVER_EMAIL)
+msg["To"] = RECIVER_EMAIL  
 msg["Subject"] = "Test email from python"
 body = "Hello! this is a test email sent from python"
 msg.attach(MIMEText(body,"plain"))
